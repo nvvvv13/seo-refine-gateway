@@ -1,0 +1,9 @@
+{
+  "name": "seo-refine-gateway",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
