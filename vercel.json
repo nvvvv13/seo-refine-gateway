@@ -1,5 +1,10 @@
 {
-  "functions": { "api/*.ts": { "runtime": "edge" } },
+  "version": 2,
+  "functions": {
+    "api/refine.ts": {
+      "runtime": "edge"
+    }
+  },
   "routes": [
     { "src": "/refine", "dest": "/api/refine.ts" }
   ]
